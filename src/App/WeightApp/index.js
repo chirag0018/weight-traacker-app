@@ -39,7 +39,7 @@ function WeightApp() {
         const queryData = querySnapshot.docs.map((doc) => doc.data());
         setData(queryData);
       });
-  }, [uid]);
+  });
 
   const signOut = () => {
     auth.signOut().then(() => {

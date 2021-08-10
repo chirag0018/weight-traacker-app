@@ -1,0 +1,28 @@
+.main {
+  @apply grid md:grid-cols-2;
+}
+
+.imagePanel {
+  @apply flex items-center justify-center h-full;
+  @apply md:h-screen;
+}
+
+.loginPanel {
+  @apply flex flex-col justify-center bg-blue-400 h-screen;
+}
+
+.appName {
+  @apply mx-10 text-center text-4xl text-white font-bold;
+}
+
+.loginDiv {
+  @apply text-center mx-10 my-10;
+}
+
+.userInput {
+  @apply p-2 w-full bg-transparent border-b-2 border-white text-white placeholder-white focus:outline-none;
+}
+
+.loginBtn {
+  @apply mt-10 w-full p-5 bg-white text-blue-400 rounded-2xl;
+}

@@ -1,0 +1,49 @@
+.navbar {
+  @apply p-5 text-center bg-blue-400 text-white text-xl;
+  @apply md:flex md:justify-between;
+}
+
+.logoutBtn {
+  @apply text-base;
+}
+
+.body {
+  @apply grid md:grid-cols-2;
+}
+
+.form {
+  @apply mx-20 my-10 flex flex-col items-center;
+  @apply md:mt-40;
+}
+
+.weightInput {
+  @apply mt-10 p-1 border-b-2 text-center border-gray-400 placeholder-gray-600 w-full focus:outline-none;
+}
+
+.weightSubmitBtn {
+  @apply mt-10 py-2 bg-blue-400 text-white rounded-full w-full;
+}
+
+.tableDiv {
+  @apply m-5;
+}
+
+.table {
+  @apply w-full;
+}
+
+.tableTr {
+  @apply text-center;
+}
+
+.tabletd {
+  @apply border-2;
+}
+
+.editIcon {
+  @apply flex items-center m-2 text-2xl text-blue-400 cursor-pointer;
+}
+
+.deleteIcon {
+  @apply flex items-center m-2 text-xl text-red-400 cursor-pointer;
+}
